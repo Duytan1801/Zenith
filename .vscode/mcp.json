@@ -1,0 +1,32 @@
+{
+  "mcpServers": {
+    "figma": {
+      "type": "http",
+      "url": "https://mcp.figma.com/mcp",
+      "gallery": true,
+      "version": "0.0.1"
+    },
+    "docs": {
+      "command": "npx",
+      "args": ["@modelcontextprotocol/http-server"],
+      "env": {
+        "MCP_HTTP_ALLOWED_ORIGINS": "https://docs.rs"
+      }
+    },
+    "arxiv": {
+      "command": "npx",
+      "args": ["@modelcontextprotocol/http-server"],
+      "env": {
+        "MCP_HTTP_ALLOWED_ORIGINS": "https://arxiv.org"
+      }
+    },
+    "huggingface": {
+      "command": "npx",
+      "args": ["@modelcontextprotocol/http-server"],
+      "env": {
+        "MCP_HTTP_ALLOWED_ORIGINS": "https://huggingface.co"
+      }
+    }
+  },
+  "inputs": []
+}

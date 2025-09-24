@@ -1,0 +1,8 @@
+[package]
+name = "trying"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rand = "0.9.2"
+pleco = "0.5.0"
